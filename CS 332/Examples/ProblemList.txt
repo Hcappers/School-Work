@@ -1,0 +1,26 @@
+Search -- Given a list of integers, l, and a key, key, return #t if the key is in the list, and #f otherwise.
+
+FindMax -- Given a list of integers, l, return the largest integer in the list.
+
+CountIfEquals -- Given a list of integers, l, and a key, key, return the number of times that the key apears in l.
+
+FilterGT -- Given a list of integers, l, and a threshold value, t, return a list containing all integers greater than the threshold.
+
+FilterLT -- Given a list of integers, l, and a threshold value, t, return a list containing all integers greater than the threshold.
+
+FilterGTLT -- Given a list of integers, l, a comparator, comparator (>, <, eq?), and a threshold value, t, return a list containing all integers that meet the criteria for that comparator.
+
+FilterList -- Given a superlist, sl, and a key value, key, return a superlist containing only lists that contains the key. (Note: a superlist is alist containing lists of integers.)
+
+PCCenterofMass -- Given a list of unweighted points, PC, return the center of mass, CM, where CM = ( average X-value, average Y-value).
+
+PCFilterGTx -- Given a list of points, plist, and a threshold value, xt, return a list containing all points whose x-coordinate is greater than xt.
+
+PCFilterInsideBox -- Given a list of points, plist, and a rectangle, rect, return a list containing all points inside of rect.
+
+PCBoundingBox -- Given a point cloud, PC return the rectangle that contains 
+(or bounds) the PC.
+
+PCMaxDist -- Given a list of points, PC, return the maximum distance between two points.
+
+LIST = ( l0 l1 l2 l3) --> (l1 l3)
