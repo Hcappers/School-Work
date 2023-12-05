@@ -1,0 +1,6 @@
+Name	 Distance
+Alpha	 936.68
+Gamma	 526.61
+Delta	 1354.93
+Epsilon	 689.55
+Phi	 537.80
