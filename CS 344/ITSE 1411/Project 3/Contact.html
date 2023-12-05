@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Rubino Smart's Contact </title>
+	<link rel="stylesheet" href="Contact.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<input type="checkbox" id="check">
+	<label for="check">
+	<i class="fas fa-bars" id="btn"></i>
+	<i class="fas fa-times" id="cancel"></i>
+	</label>
+	<div class="menu">
+		<header> Menu </header>
+		<ul>
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="Gallery.html"> Gallery </a></li>
+			<li><a href="Contact.html"> Contact </a></li>
+		</ul>
+	</div>
+	<section>
+		Contact Me
+	</section>
+	<form>
+		<fieldset id="Contact">
+			<label for="fname"> First Name <input type="text" id="fname" placeholder="First Name...."></label>
+			<label for="lname"> Last Name <input type="text" id="lname" placeholder="Last Name...."></label>
+			<label for="help"> Request <select id="help" name="help">
+				<option value="consult"> Consultation </option>
+				<option value="shoot">Book a session </option>
+				<option value="other"> Other </option></select></label>
+			<label for="emailAddy"> Email Address <input type="text" id="emailAddy" placeholder="Email Address..."></label>
+			<label for="phone"> <input type="text" id="phone" placeholder="Phone Number...."></label>
+			<label for="comp"> Company name <input type="text" id="comp" placeholder="Company Name"></label>
+			<label for="info"> Other Information </label><textarea id="info" name="info" placeholder="Other information..." style="height: 200px;"></textarea>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+</body>
+</html>
