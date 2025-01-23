@@ -19,3 +19,5 @@
   - C++
 - [ITSE 1411 - Beginning Web Programming](#ITSE-1411)
   - HTML and CSS
+- [MA 305 - Intro to Scientifi Computing](#MA-305)
+  - Python 

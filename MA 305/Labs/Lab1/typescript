@@ -1,0 +1,103 @@
+Script started on 2025-01-22 15:41:54-05:00 [TERM="xterm-kitty" TTY="/dev/pts/2" COLUMNS="114" LINES="64"]
+]4;0;#10091f\]4;1;#D05763\]4;2;#628876\]4;3;#E9BE64\]4;4;#215B95\]4;5;#4E5296\]4;6;#C944A1\]4;7;#91d6de\]4;8;#65959b\]4;9;#D05763\]4;10;#628876\]4;11;#E9BE64\]4;12;#215B95\]4;13;#4E5296\]4;14;#C944A1\]4;15;#91d6de\]10;#91d6de\]11;#10091f\]12;#91d6de\]13;#91d6de\]17;#91d6de\]19;#10091f\]4;232;#10091f\]4;256;#91d6de\]708;#10091f\[1m
+[36m      /\
+     /  \
+    /    \
+   /      \
+[36m  /   ,,   \
+ /   |  |   \
+/_-''    ''-_\[m[1G[7A[m[?7l[18C[m[1m[36m╭───────────╮[m[m [m[m
+[18C[m[1m[36m│ [31m user    [36m│[m[m [mtoptyr[m
+[18C[m[1m[36m│ [32m󰇅 hname   [36m│[m[m [march[m
+[18C[m[1m[36m│ [33m󰅐 uptime  [36m│[m[m [m3 days, 19 hours, 51 mins
+[18C[m[1m[36m│ [34m distro  [36m│[m[m [mArch Linux x86_64
+[18C[m[1m[36m│ [35m kernel  [36m│[m[m [mLinux 6.12.9-arch1-1
+[18C[m[1m[36m│ [31m term    [36m│[m[m [mscript
+[18C[m[1m[36m│ [32m shell   [36m│[m[m [mzsh 5.9
+[18C[m[1m[36m│ [33m󰍛 cpu     [36m│[m[m [mIntel(R) Core(TM) Ultra 7 155U (4+8+2) @ 4.80 GHz
+[18C[m[1m[36m│ [34m󰉉 disk    [36m│[m[m [m43.27 GiB / 930.51 GiB ([32m5%[m) - btrfs
+[18C[m[1m[36m│ [35m memory  [36m│[m[m [m5.56 GiB / 30.86 GiB ([32m18%[m)
+[18C[m[1m[36m│ [36m󰩟 network [36m│[m[m [m10.33.167.173/17 (wlp0s20f3)[m
+[18C[m[1m[36m├───────────┤[m[m [m[m
+[18C[m[1m[36m│ [39m colors  [36m│[m[m [m[38m● [37m● [36m● [35m● [34m● [33m● [32m● [31m●[m
+[18C[m[1m[36m╰───────────╯[m[m [m[m
+[?7h[1m[7m%[27m[1m[0m                                                                                                                  ]2;toptyr@arch:~/Documents/School-Work/MA305/Labs/Lab1]1;..305/Labs/Lab1]7;file://arch/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\[0m[27m[24m[J[38;2;248;248;242m
+╭─[0m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242mtoptyr[0m[48;2;40;42;54m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242m  [0m[48;2;204;204;204m[38;2;40;42;54m[0m[48;2;204;204;204m[38;2;40;42;54m 󰉖 ]8;;file:/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\~/Documents/School-Work/MA305/Labs/Lab1]8;;\[0m[38;2;204;204;204m[0m                                               [38;2;80;250;123m[0m[48;2;80;250;123m[38;2;40;42;54m 3.13.1[0m[38;2;80;250;123m[0m
+[38;2;248;248;242m╰─ ❯❯[0m [K[?1h[?2004h[32mc[39m[32mc[39m[90mlear[39m[1m[31mc[1m[31ma[0m[39m[39m [39m [39m [90mt cw2.py[39m[8D[0m[32mc[0m[32ma[32mt[39m[39m [39ml[39m [39m [39m [39m [39m ab1
+[J[01;32mlab1a.py[0m*  [J[01;32mlab1b.py[0m*[J[A[0m[27m[24m[6C[32mcat[39m lab1[K. a[35ml[35ma[35mb[35m1[35ma[35m.py[39m[1m [0m[0m [?2004l[A[A[?2004h[0m[27m[24m[J[38;2;248;248;242m
+  ❯❯ /home/toptyr/Documents/School-Work/MA305/Labs/Lab1 : [0m[32mcat[39m [35mlab1a.py[39m[K[?1l[?2004l
+]2;cat lab1a.py]1;cat#!/usr/bin/env python3
+import math
+
+r1 = 100
+r2 = 200
+r3 = 300
+
+R = (1 / ((1/r1) + (1/r2) + (1/r3)))
+print('The total resistance of the three resistors  R1:', r1, ' R2:', r2, ' R3:', r3, 'is R:', R)
+print()
+
+p = 10000
+r = 0.08
+k = 4
+t = 20
+
+A = p * (1 + (r / k)) ** (k * t)
+print('The future amount with a Principal starting with: ', p, ' is A: ', A)
+print()
+
+a = 6
+b = 8
+c = 10
+s = ((1/2) * (a + b + c))
+
+Area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+print('The area of the triangle with sides a:', a, ' b:', b, ' c:', c, 'is A:', Area)
+print()
+
+radius = -0.3
+theta = ((3 * math.pi) / 4)
+y = ((math.e ** radius) * math.cos(theta) + (math.e ** (2 * radius)) * math.sin(2 * theta))
+print('The value for y for the function is: ', y)
+print()
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;toptyr@arch:~/Documents/School-Work/MA305/Labs/Lab1]1;..305/Labs/Lab1]7;file://arch/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\[0m[27m[24m[J[38;2;248;248;242m
+╭─[0m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242mtoptyr[0m[48;2;40;42;54m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242m  [0m[48;2;204;204;204m[38;2;40;42;54m[0m[48;2;204;204;204m[38;2;40;42;54m 󰉖 ]8;;file:/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\~/Documents/School-Work/MA305/Labs/Lab1]8;;\[0m[38;2;204;204;204m[0m                                               [38;2;80;250;123m[0m[48;2;80;250;123m[38;2;40;42;54m 3.13.1[0m[38;2;80;250;123m[0m
+[38;2;248;248;242m╰─ ❯❯[0m [K[?1h[?2004h[32m.[39m[32m.[39m[90m/lab1b.py[39m[9D[4m[35m.[4m[35m/[24m[39m[24m[1m[31m.[24m[1m[31m/[1m[31ml[0m[39m[1m[31ml[1m[31ma[0m[39m[0m[32m.[0m[32m/[0m[32ml[0m[32ma[32mb[39m[1m[31m.[1m[31m/[1m[31ml[1m[31ma[1m[31mb[1m[31m1[0m[39m[39m [39m [39m [39m [90mb.py[39m[1m[31m1[1m[31ma[0m[39m[39m [39m [39m [90m.py[39m[0m[32m.[0m[32m/[0m[32ml[0m[32ma[0m[32mb[0m[32m1[0m[32ma[32m.[32mp[32my[39m[1m [0m[0m [?2004l[A[A[?2004h[0m[27m[24m[J[38;2;248;248;242m
+  ❯❯ /home/toptyr/Documents/School-Work/MA305/Labs/Lab1 : [0m[32m./lab1a.py[39m[K[?1l[?2004l
+]2;./lab1a.py]1;./lab1a.pyThe total resistance of the three resistors  R1: 100  R2: 200  R3: 300 is R: 54.54545454545455
+
+The future amount with a Principal starting with:  10000  is A:  48754.391560963966
+
+The area of the triangle with sides a: 6  b: 8  c: 10 is A: 24.0
+
+The value for y for the function is:  -1.0726492235646214
+
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;toptyr@arch:~/Documents/School-Work/MA305/Labs/Lab1]1;..305/Labs/Lab1]7;file://arch/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\[0m[27m[24m[J[38;2;248;248;242m
+╭─[0m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242mtoptyr[0m[48;2;40;42;54m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242m  [0m[48;2;204;204;204m[38;2;40;42;54m[0m[48;2;204;204;204m[38;2;40;42;54m 󰉖 ]8;;file:/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\~/Documents/School-Work/MA305/Labs/Lab1]8;;\[0m[38;2;204;204;204m[0m                                               [38;2;80;250;123m[0m[48;2;80;250;123m[38;2;40;42;54m 3.13.1[0m[38;2;80;250;123m[0m
+[38;2;248;248;242m╰─ ❯❯[0m [K[?1h[?2004h[32mc[39m[32mc[39m[90mat lab1a.py[39m[11D[1m[31mc[1m[31ma[0m[39m[0m[32mc[0m[32ma[32mt[39m[39m [39ml[39ma[39mb[39m1[39m [39m [39m [39m [90ma.py[39m[39mb[39m [39m [39m [35ml[35ma[35mb[35m1[35mb[35m.py[39m[1m [0m[0m [?2004l[A[A[?2004h[0m[27m[24m[J[38;2;248;248;242m
+  ❯❯ /home/toptyr/Documents/School-Work/MA305/Labs/Lab1 : [0m[32mcat[39m [35mlab1b.py[39m[K[?1l[?2004l
+]2;cat lab1b.py]1;cat#!/usr/bin/env python3
+
+def Converter(c):
+    return (9/5) * c + 32
+
+celsius = [-40, 0, 30, 100]
+
+for c in celsius:
+    F = Converter(c)
+    print(f'The converted Celsius: {c} to Fahrenheit is: {F}')
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;toptyr@arch:~/Documents/School-Work/MA305/Labs/Lab1]1;..305/Labs/Lab1]7;file://arch/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\[0m[27m[24m[J[38;2;248;248;242m
+╭─[0m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242mtoptyr[0m[48;2;40;42;54m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242m  [0m[48;2;204;204;204m[38;2;40;42;54m[0m[48;2;204;204;204m[38;2;40;42;54m 󰉖 ]8;;file:/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\~/Documents/School-Work/MA305/Labs/Lab1]8;;\[0m[38;2;204;204;204m[0m                                               [38;2;80;250;123m[0m[48;2;80;250;123m[38;2;40;42;54m 3.13.1[0m[38;2;80;250;123m[0m
+[38;2;248;248;242m╰─ ❯❯[0m [K[?1h[?2004h[1m[31mp[0m[39m[1m[31mp[0m[39m[90mwd[39m[1m[31mp[1m[31my[0m[39m[39m [90mthon3 cw1-edit.py[39m[17D[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[32mn[32m3[39m[39m [39ml[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10Dab1
+[J[01;32mlab1a.py[0m*  [J[01;32mlab1b.py[0m*[J[A[0m[27m[24m[6C[32mpython3[39m lab1[Kb[35ml[35ma[35mb[35m1[35mb[35m.py[39m[1m [0m[0m [?2004l[A[A[?2004h[0m[27m[24m[J[38;2;248;248;242m
+  ❯❯ /home/toptyr/Documents/School-Work/MA305/Labs/Lab1 : [0m[32mpython3[39m [35mlab1b.py[39m[K[?1l[?2004l
+]2;python3 lab1b.py]1;python3The converted Celsius: -40 to Fahrenheit is: -40.0
+The converted Celsius: 0 to Fahrenheit is: 32.0
+The converted Celsius: 30 to Fahrenheit is: 86.0
+The converted Celsius: 100 to Fahrenheit is: 212.0
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;toptyr@arch:~/Documents/School-Work/MA305/Labs/Lab1]1;..305/Labs/Lab1]7;file://arch/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\[0m[27m[24m[J[38;2;248;248;242m
+╭─[0m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242mtoptyr[0m[48;2;40;42;54m[38;2;40;42;54m[0m[48;2;40;42;54m[38;2;248;248;242m  [0m[48;2;204;204;204m[38;2;40;42;54m[0m[48;2;204;204;204m[38;2;40;42;54m 󰉖 ]8;;file:/home/toptyr/Documents/School-Work/MA305/Labs/Lab1\~/Documents/School-Work/MA305/Labs/Lab1]8;;\[0m[38;2;204;204;204m[0m                                               [38;2;80;250;123m[0m[48;2;80;250;123m[38;2;40;42;54m 3.13.1[0m[38;2;80;250;123m[0m
+[38;2;248;248;242m╰─ ❯❯[0m [K[?1h[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[1m[31me[1m[31mx[0m[39m[1m[31me[1m[31mx[1m[31mo[0m[39m[39m [90mt[39m[1m[31mo[1m[31mt[0m[39m[1m[31mo[0m[39m[0m[39m [90mt[39m[1m[31me[1m[31mx[0m[39m[0m[39m [39m [90mit[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?2004l[A[A[?2004h[0m[27m[24m[J[38;2;248;248;242m
+  ❯❯ /home/toptyr/Documents/School-Work/MA305/Labs/Lab1 : [0m[32mexit[39m[K[?1l[?2004l
+]2;exit]1;exit
+Script done on 2025-01-22 15:42:30-05:00 [COMMAND_EXIT_CODE="0"]

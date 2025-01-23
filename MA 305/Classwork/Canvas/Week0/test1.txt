@@ -1,0 +1,20 @@
+MA305:
+This course is an introduction to the Unix operating system, 
+programming in Python, and the use of mathematical libraries 
+for the prospective Computational Mathematics majors.  
+Applications may include root-finding algorithms, numerical 
+differentiation and integration, least squares, linear systems  
+and first order differential equations.
+
+Unix:
+Unix is designed to keep the concept of sharing in mind. 
+Multiple people can log in to the same machine at the same time and also, 
+some people can log in from different locations to the same machine. 
+Unix has less burden than the Windows system, is highly customizable, 
+and is better secured.
+
+Python:
+Python is incredibly easy to learn and use for beginners. 
+It is the most accessible among all the programming languages 
+available because it has simplified syntax that is not complicated 
+at all and gives more emphasis on natural language.
